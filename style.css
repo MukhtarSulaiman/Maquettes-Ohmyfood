@@ -1,4 +1,4 @@
-/** @format */
+/* @format */
 
 body {
 	margin: 0;
@@ -38,10 +38,6 @@ h3 {
 
 h4 {
 	color: #333333 !important;
-}
-
-p {
-	font-size: normal;
 }
 
 #page-loading-blocs-notifaction {
@@ -852,18 +848,6 @@ a {
 	}
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-	.b-parallax {
-		background-attachment: scroll;
-	}
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-	.b-parallax {
-		background-attachment: scroll;
-	}
-}
-
 #bloc-2-services .quote {
 	padding: 0 15px;
 	border-left: 3px solid #ccc;
@@ -882,10 +866,7 @@ a {
 		overflow-x: hidden;
 		position: relative;
 	}
-	.bloc {
-		padding-left: constant(safe-area-inset-left);
-		padding-right: constant(safe-area-inset-right);
-	}
+	
 	.bloc-group,
 	.bloc-group .bloc {
 		display: block;
@@ -894,8 +875,6 @@ a {
 	.bloc-fill-screen .fill-bloc-top-edge,
 	.bloc-fill-screen .fill-bloc-bottom-edge {
 		padding: 0 20px;
-		padding-left: constant(safe-area-inset-left);
-		padding-right: constant(safe-area-inset-right);
 	}
 	#bloc-2-services .quote {
 		width: 60% !important;
