@@ -24,8 +24,9 @@ a:hover {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 1.4em;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -710,12 +711,6 @@ a {
 	margin: auto auto auto auto;
 }
 
-/* .h1 {
-	font-size: 2px;
-	font-family: 'Open Sans';
-	color: #fff !important;
-} */
-
 .slogan {
 	margin-top: 22px;
 	color: #575757;
@@ -729,10 +724,8 @@ a {
 
 .social {
 	max-width: 400px;
-	margin: auto auto auto auto;
+	margin: 25px auto auto auto;
 }
-
-
 
 .med-width-whitespace {
 	max-width: 800px;
