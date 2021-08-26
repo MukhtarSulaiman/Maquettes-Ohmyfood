@@ -102,7 +102,7 @@ h4 {
 	background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/* .bloc-bg-texture::before {
 	content: '';
 	background-size: 2px 2px;
 	position: absolute;
@@ -110,7 +110,7 @@ h4 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-}
+} */
 
 .texture-paper::before {
 	background: url('img/texture-paper.png');
